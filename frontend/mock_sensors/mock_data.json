@@ -1,0 +1,17 @@
+[{
+        "id": 1,
+        "type": "température",
+        "value": 34.2,
+        "unit": "°C",
+        "latitude": 48.405,
+        "longitude": 2.701
+    },
+    {
+        "id": 2,
+        "type": "niveau d'eau",
+        "value": 2.5,
+        "unit": "m",
+        "latitude": 48.407,
+        "longitude": 2.699
+    }
+]

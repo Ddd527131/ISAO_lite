@@ -1,0 +1,39 @@
+/* frontend/style.css */
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    display: flex;
+    height: 100%;
+}
+
+#dashboard {
+    width: 300px;
+    padding: 1rem;
+    background-color: #f4f4f4;
+    overflow-y: auto;
+    border-right: 1px solid #ccc;
+}
+
+#map {
+    flex: 1;
+    height: 100%;
+}
+
+#alert-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#alert-list li {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background: #fff;
+    border-left: 4px solid #ff5c5c;
+    cursor: pointer;
+}
